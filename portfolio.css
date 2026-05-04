@@ -1,0 +1,66 @@
+Body {
+    background-color: #CFD8DC;
+}
+
+h1 {
+    padding: 20px;
+    margin: 5px;
+    color: #004D40;
+}
+
+h2 {
+    padding: 10px;
+    color: #00695C;
+}
+
+h3{
+    padding: 10px;
+    margin-bottom: 0;
+    color: #455A64;
+}
+
+blockquote {
+    display: block;
+    font-style: italic;
+    color: #00796B;
+    font-size: 14px;
+    text-align: right;
+}
+
+.intro-section {
+    text-align: center;
+    padding: 10px;
+    max-width: 600px;
+    margin-bottom: 0;
+}
+
+.intro-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom:0;
+}
+
+.project-card {
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid white;
+    
+}
+
+.project-description {
+    font-style: italic;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0;
+    background-color: #B2DFDB;
+}
+
+a{
+    display: inline-block;
+    background-color: #006064;
+    color: white;
+    padding: 8px 16px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}

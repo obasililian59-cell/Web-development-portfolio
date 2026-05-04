@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Stress Management and Coping Strategies Survey</title>
+        <meta name="description" content="Stress Management and Coping Strategies Survey">
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Stress Management and Coping Strategies Survey</h1>
+            <p id="description">This survey aims to examine common stress triggers and coping strategies among individuals.The information collected will be used for educational and research purposes.All responses are confidential and will be analyzed collectively.</p>
+        </header>
+        <form action="" id="survey-form">
+            <fieldset>
+                <legend>Personal Information</legend>
+                
+                <label for="name">Name:</label>
+                <input required type="text" id="name" name="name">
+                
+                <label for="email">Email Address(Required):</label>
+                <input required type="email" id="email" name="email">
+                
+                <label for="age">Age(required):</label>
+                <input required type="number" id="age" name="age" min="18" max="65">
+                
+                <label for="employment-status">Employment Status</label>
+                <select id="employment-status" name="employment-status">
+                    <option value="student">Student</option>
+                    <option value="fulltime">Employed(full-time)</option>
+                    <option value="parttime">Employed(part-time)</option>
+                    <option value="selfemployed">Self-Employed</option>
+                    <option value="unemployed">Unemployed</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Stress Assessment</legend>
+                
+                <label for="stress-level">What is your stress level on a scale of (1-10):</label>
+                <input required type="number" id="stress-level" name="stress-level" min="1" max="10">
+                
+                <p>What is the frequency of your stress?</p>
+                
+                <label for="daily">Daily</label>
+                <input required type="radio" id="daily" name="frequency" value="daily">
+                
+                <label for="several">Several times a week</label>
+                <input type="radio" id="several" name="frequency"
+                value="several">
+                
+                <label for="once">Once a week</label>
+                <input type="radio" id="once" name="frequency" value="once">
+                
+                <label for="occasionally">Occassionally</label>
+                <input type="radio" id="occasionally" name="frequency" value="occasionally">
+                
+                <label for="rarely">Rarely</label>
+                <input type="radio" id="rarely"
+                name="frequency" value="rarely">
+                
+                <p>What is your primary source of stress?</p>
+                
+                <label for="work-related">Work-related responsibilities</label>
+                <input required type="radio" id="work-related" name="source" value="work-related">
+                
+                <label for="academic">Academic Pressure</label>
+                <input type="radio" id="academic" name="source" value="academic">
+                
+                <label for="financial">Financial Concerns</label>
+                <input type="radio" id="financial" name="source" value="financial">
+                
+                <label for="family">Family Issues</label>
+                <input type="radio" id="family" name="source" value="family">
+                
+                <label for="health-related">Health Related Concerns</label>
+                <input type="radio" id="health-related" name="source" value="health-related">
+            </fieldset>
+            <fieldset>
+                <legend>Coping Strategies</legend>
+                <p>What are your ways of coping with stress. Select all that applies.</p>
+                
+                <label for="physical">Physical Exercise</label>
+                <input type="checkbox" id="physical" name="strategies" value="physical">
+                
+                <label for="meditation">Meditation</label>
+                <input type="checkbox" id="meditation" name="strategies" value="meditation">
+                
+                <label for="social-interaction">Social Interaction</label>
+                <input type="checkbox" id="social-interaction" name="strategies" value="social-interaction">
+                
+                <label for="recreational">Recreational Activities</label>
+                <input type="checkbox" id="recreational" name="strategies" value="recreational">
+                
+                <label for="journaling">Journaling</label>
+                <input type="checkbox" id="journaling" name="strategies" value="journaling">
+            </fieldset>
+            
+            <p>Please describe any additional stress management strategies you use that were not listed above.</p>
+            
+            <fieldset>
+                <legend>Additional Comments</legend>
+            <textarea id="comment" name="comment" rows="4" cols="30"></textarea>
+            </fieldset>
+            
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </body>
+    <footer>
+        <p class="back-link"><a href="index.html"> &larr; Back to Portfolio Page</a></p>
+        
+        All rights reserved @Lilian2026
+    </footer>
+</html>

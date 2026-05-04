@@ -1,0 +1,152 @@
+Body{
+    background-color: burlywood;
+    font-family: Arial;
+}
+
+
+.search-container{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px;
+    background-image: ;
+}
+
+.visually-hidden{
+    
+}
+
+.search-container button{
+    color: ;
+    padding: 8px 16px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+h1{
+    color: teal;
+    padding: 20px;
+    margin: 10px;
+    font-family: "Times New Roman";
+}
+
+nav a{
+    display: inline-block;
+    background-color: #006064;
+    color: white;
+    padding: 8px 16px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+h2{
+    color: #455A64;
+    margin: 10px
+    padding: 20px;
+    font-family: "Times New Roman";
+}
+
+.content-container{
+    max-width: 400px;
+}
+
+.content{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom; 5px;
+    padding: 10px;
+    background-color: #FFCCBC;
+    text-align: center;
+}
+
+.sidebar-right{
+    text-align: right;
+    text-style: italic;
+    color: white;
+    font-size: 18px;
+}
+
+.sidebar-left{
+    text-align: left;
+    text-style: italic;
+    color: white;
+    font-size: 18px;
+}
+
+.post-container{
+    max-width: 400px;
+}
+
+.post{
+    background-color: grey;
+    margin:10px;
+    padding: 20px;
+}
+
+h3{
+    color: #B2DFDB;
+    padding: 20px;
+    margin: auto;
+    font-family: "Times New Roman";
+}
+
+.post-meta{
+    color: blue;
+    padding: 20px;
+    margin: auto;
+}
+
+.post-meta p{
+    color: white;
+    padding: 30px;
+    margin: 15px;
+}
+
+.post a{
+    display: inline-block;
+    background-color: #006064;
+    color: white;
+    padding: 8px 16px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.highlight-quote{
+    background-color: ;
+    margin: 10px;
+    padding: 20px;
+}
+
+.know{
+    background-color: ;
+}
+
+.connect{
+    margin: 10px;
+    padding: 20px;
+}
+
+form{
+    padding: 10px;
+    margin: 5px;
+}
+
+form button{
+    padding: 10px;
+    margin: 5px;
+    background-color: teal;
+    border-radius: 5px;
+}
+
+address a{
+    display: inline-block;
+    background-color: #006064;
+    color: white;
+    padding: 8px 16px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}

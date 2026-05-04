@@ -1,0 +1,31 @@
+Body{
+    background-color: burlywood;
+}
+
+h1{
+    color: teal;
+}
+
+.post-meta{
+    color: blue;
+}
+
+.writeup {
+    padding: 20px;
+    margin: auto;
+    background-color: grey;
+}
+
+.writeup-container{
+    border: 2px solid white;
+    max-width: 400px;
+}
+.back-link a{
+        display: inline-block;
+    background-color: #006064;
+    color: white;
+    padding: 8px 16px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
