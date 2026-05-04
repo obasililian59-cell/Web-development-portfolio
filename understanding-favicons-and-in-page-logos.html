@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Adding icons</title>
+        <meta name="viewport" content="width=device-width,initial scale=1.0">
+        <meta name"description" content="understanding favicons and in-page logos">
+        <link rel="icon" href="Myicon.ico">
+                <link rel="stylesheet" href="content.css">
+    </head>
+    <body>
+        <header>
+            <img src="favicon-32x32.png" alt="Site logo" widtg="32" height="32">
+            
+             <h1 id="title">Adding Icons: Understanding Favicons and In‑Page Logos</h1>
+        </header>
+             <p class="post-meta">Pulished on <date datetime="2026-04-28"> April 28, 2026.</date>By Lilian Uchechi Obasi</p>
+        <main>
+            <div class="writeup-container">
+                
+                <article class="writeup">
+                    <p>As I continued refining my Learning Journey blog, I decided to add an icon to make the site feel more personal and professional. I wanted a small visual identity element that would distinguish the project and make it look complete.</p>
+                    
+                    <p>What I initially assumed would be a quick addition became an important lesson in understanding how browsers handle icons differently from content inside a webpage.</p>
+                    
+                    <p>At first, I believed that adding a favicon would automatically display an icon somewhere inside the webpage itself. After generating the favicon files and linking them correctly inside the <code>head</code> section, I kept refreshing the page and looking for the icon within the body content.</p>
+                    
+                    <p>It did not appear.</p>
+                    
+                    <p>This led me to question whether the file path was wrong or whether the feature only worked when the site was hosted live.</p>
+                    
+                    <p>I later understood that a favicon is not part of the page content.</p>
+                    
+                    <p>
+                        A favicon appears in:
+                        <ul>
+                            <li>The browser tab.</li>
+                            <li>Bookmarks.</li>
+                            <li>Browser history.</li>
+                        </ul>
+                    </p>
+                    
+                    <p>It does not display inside the webpage body.</p>
+                    
+                    <p>Once I made that distinction, the confusion disappeared. The favicon was correctly implemented; I had simply misunderstood its purpose.</p>
+                    
+                    <p>Having understood the difference, I then added a visible icon inside the header using the <code>img</code> element. This allowed the logo to appear above the main heading, creating a clean and intentional layout.</p>
+                    
+                    <p>This small adjustment helped me understand how structure determines layout, placing the image inside or outside the <code>h1</code> changed its position entirely.</p>
+                    
+                    <p>Key Lessons Learned
+                       <ol>
+                           <li>A favicon and an in-page image serve different purposes.</li>
+                           <li>Not all visual elements appear inside the <code>body</code> of a webpage.</li>
+                           <li>File paths and correct linking are essential for assets to load properly.</li>
+                           <li>Small design decisions contribute significantly to professionalism.</li>
+                       </ol>
+                    </p>
+                    
+                    <p>Therefore, before troubleshooting an issue, it is important to confirm what an element is designed to do. Understanding the role of each <abbr title="HyperText Markup Language">HTML</abbr>feature prevents unnecessary confusion and improves problem-solving efficiency.This experience reinforced a broader lesson in my learning process: clarity often comes after implementation, not before.</p>
+                </article>
+                <p class="back-link"><a href="my-learning-journal.html#blog">&larr; Back to blog</a></p>
+            </div>
+        </main>
+    </body>
+</html>
