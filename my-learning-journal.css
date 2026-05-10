@@ -144,7 +144,7 @@ form button{
     border-radius: 5px;
 }
 
-address a:link{
+address a{
     display: inline-block;
     background-color: #006064;
     color: white;
@@ -154,12 +154,3 @@ address a:link{
     border-radius: 5px;
 }
 
-address a:visited{
-    background-color: #004D50;
-    color: white;
-}
-
-address a:hovered{
-    background-color: #00363A;
-    color: white;
-}
