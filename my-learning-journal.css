@@ -3,7 +3,6 @@ Body{
     font-family: Arial;
 }
 
-
 .search-container{
     border: 2px solid black;
     margin: 10px;
@@ -108,7 +107,7 @@ h3{
     margin: 15px;
 }
 
-.post a {
+.post a{
     display: inline-block;
     background-color: #006064;
     color: white;
