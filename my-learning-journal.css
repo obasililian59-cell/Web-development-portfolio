@@ -108,7 +108,7 @@ h3{
     margin: 15px;
 }
 
-.post a{
+.post a:link{
     display: inline-block;
     background-color: #006064;
     color: white;
@@ -116,6 +116,11 @@ h3{
     margin-top: 10px;
     text-decoration: none;
     border-radius: 5px;
+}
+
+.post a:visited{
+    background-color: #004D50;
+    color: white;
 }
 
 .highlight-quote{
