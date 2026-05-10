@@ -55,7 +55,7 @@ blockquote {
     background-color: #B2DFDB;
 }
 
-a{
+a:link{
     display: inline-block;
     background-color: #006064;
     color: white;
@@ -63,4 +63,14 @@ a{
     margin-top: 10px;
     text-decoration: none;
     border-radius: 5px;
+}
+
+a:visited{
+    background-color: #004D50;
+    color: white;
+}
+
+a:hovered{
+    background-color: #00363A;
+    color: white;
 }
