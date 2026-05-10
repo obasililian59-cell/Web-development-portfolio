@@ -30,7 +30,7 @@ article{
     padding: 20px;
     max-width: 400px;
 }
-.Book a {
+.Book a:link{
     display: inline-block;
     background-color: #006064;
     color: white;
@@ -40,7 +40,17 @@ article{
     border-radius: 5px;
 }
 
-.back-link a {
+.Book a:hovered{
+    background-color: #00363A;
+    color: white;
+}
+
+.Book a:visited{
+    background-color: #004D50;
+    color: white;
+}
+
+.back-link a:link {
     display: inline-block;
     background-color: #006064;
     color: white;
@@ -48,4 +58,14 @@ article{
     margin-top: 10px;
     text-decoration: none;
     border-radius: 5px;
+}
+
+.back-link a:hovered{
+    background-color: #00363A;
+    color: white;
+}
+
+.back-link a:visited{
+    background-color: #004D50;
+    color: white;
 }
