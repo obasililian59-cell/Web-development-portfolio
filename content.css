@@ -20,7 +20,7 @@ h1{
     border: 2px solid white;
     max-width: 400px;
 }
-.back-link a{
+.back-link a:link{
         display: inline-block;
     background-color: #006064;
     color: white;
@@ -28,4 +28,14 @@ h1{
     margin-top: 10px;
     text-decoration: none;
     border-radius: 5px;
+}
+
+.back-link a:hovered{
+    background-color: #00363A;
+    color: white;
+}
+
+.back-link a:visited{
+    background-color: #004D50;
+    color: white;
 }
